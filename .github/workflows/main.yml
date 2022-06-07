@@ -46,4 +46,4 @@ jobs:
           ls -a
           
       - name: Step 5 - Run Test
-        run: /Factory/src/PizzaTestDriveTest.java
+        run: verify --file /Factory/src/PizzaTestDriveTest.java
