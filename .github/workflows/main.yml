@@ -41,5 +41,5 @@ jobs:
         
       - name: Step 5 - Target folder
         run: |
-          cd target
+          cd pom.xml
           ls -a
