@@ -44,3 +44,6 @@ jobs:
         run: |
           cd Factory
           ls -a
+          
+      - name: Step 5 - Run Test
+        run: /Factory/src/PizzaTestDriveTest.java
